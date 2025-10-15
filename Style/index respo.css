@@ -1,0 +1,42 @@
+@media screen and (max-width:455px) {
+    header {
+        height: 35vh;
+    }
+    nav {
+        height: 5vh;
+        font-size: 25px;
+    }
+    #hln {
+        height:5vh;
+    }
+    #hln > li {
+        height: 5vh;
+
+    }
+    #hln > :first-child > :first-child{
+        height: 4vh;
+        margin: 0.5vh 1vw;
+    }
+    #links {
+        margin: auto;
+        height: inherit;
+    }
+    #links a {
+        display: block;
+        font-size: 17px;
+        padding-bottom: 25px;
+    }
+    /* #wnm {
+        display: none;
+        color: red;
+    } */
+    .prdiv {
+        flex-direction: column;
+    }
+    .primg {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+}
