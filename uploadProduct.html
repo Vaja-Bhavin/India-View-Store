@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Style/uploadProduct.css">
 </head>
 <body>
     <main>
-        <div>
+        <div id="box-1">
             <h2>Upload Product</h2>
             <form action="">
-                <div>
+                <div class="box-inp">
+                    <label for="name">Product Name:</label>
+                    <input type="text" name="Name" id="name">
+                </div>
+                <div class="box-inp">
+                    <label for="price">Product Price:</label>
+                    <input type="number" name="price" id="price">
+                </div>
+                <div class="box-inp">
+                    <label for="desc">Description:</label>
+                    <textarea name="desc" id="desc" cols="30" rows="5"></textarea>
+                </div>
+                <div class="box-inp">
+                    <label for="ytlink">YouTube Video Link:</label>
+                    <input type="url" name="ytlink" id="ytlink">
+                </div>
+                <div class="box-inp">
+                    <label for="splink">Shopping Link:</label>
+                    <input type="url" name="splink" id="splink">
                 </div>
             </form>
         </div>
     </main>
 </body>
-
 </html>
